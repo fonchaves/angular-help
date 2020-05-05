@@ -1,0 +1,44 @@
+<form [formGroup]="form" class="form" (ngSubmit)="onSubmit()">
+
+  <input
+    type="text"
+    id="name"
+    formControlName="name"
+    placeholder="Nome completo"
+    >
+
+  <input
+    type="text"
+    id="cpf"
+    formControlName="cpf"
+    placeholder="CPF"
+    >
+
+  <input
+    type="text"
+    id="birthDate"
+    formControlName="birthDate"
+    placeholder="01/01/2020"
+    >
+
+  <input
+    type="email"
+    id="email"
+    formControlName="email"
+    placeholder="Email">
+
+  <input
+    type="text"
+    id="celular"
+    formControlName="celular"
+    placeholder="Celular">
+
+
+  <select formControlName="genre">
+    <option *ngFor="let genre of genres" [ngValue]="genre">
+      {{ genre.name }}
+    </option>
+  </select>
+
+  <input type="submit" value="Submit" class="btn">
+</form>

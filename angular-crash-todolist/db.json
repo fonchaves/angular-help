@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leandro Chaves",
+      "cpf": "12312312312",
+      "birthDate": "02021992",
+      "email": "leandro@email.com",
+      "celular": "5590988888888",
+      "genre": "M"
+    },
+    {
+      "id": 3,
+      "name": "Diana Regina",
+      "cpf": "34534534534",
+      "birthDate": "02041992",
+      "email": "diana@email.com",
+      "celular": "5594988888888",
+      "genre": "F"
+    },
+    {
+      "name": "Lucas",
+      "cpf": "828282828",
+      "birthDate": "92929292",
+      "email": "lucas@email.com",
+      "celular": "8282828",
+      "genre": "M",
+      "id": 5
+    },
+    {
+      "name": "jdskhjwjkhs",
+      "cpf": "ndsmndsnbmsd",
+      "birthDate": "m,nds,mnsd",
+      "email": "nm,dsmnsd",
+      "celular": "mn,ds,mnds",
+      "genre": "M",
+      "id": 6
+    }
+  ],
+  "address": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "cep": "88888-88",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "street": "Rua das Nações",
+      "number": "672",
+      "complement": "Prox a Galeria"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "cep": "88348-88",
+      "city": "Caxias",
+      "state": "MA",
+      "street": "Rua Guardalupe",
+      "number": "6922",
+      "complement": "Anexo ao Mercadinho"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "cep": "23238-88",
+      "city": "Vitória",
+      "state": "ES",
+      "street": "Rua das Edwirgens",
+      "number": "6543",
+      "complement": "Casa dos altos"
+    }
+  ]
+}
